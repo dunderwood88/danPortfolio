@@ -1,0 +1,46 @@
+<!-- sketchbook.html -->
+    <div>
+        <div class="header pagePersonal">
+            <h1>dan underwood</h1>
+            <div>
+                <a href="/">home</a>
+                <a href="/#professional">professional</a>
+                <a class="inactive" href="/#personal">personal</a>
+                <a href="/#contact">contact</a>
+            </div>
+            
+        </div>
+
+        <div>
+
+            <p>
+                i am from london, uk. i have also lived in málaga, spain and vancouver, canada. i currently live in cambridge, uk.
+            </p>
+
+            <p>
+                i'm really into science, music, books, art, travelling. i also like to ride my bike.
+            </p>
+
+            <p>
+                follow me on twitter: <a style="text-decoration: underline;" href="https://twitter.com/underthew00d" target="_blank">@underthew00d</a> 
+                and/or instagram: <a style="text-decoration: underline;" href="https://www.instagram.com/underthew00d/" target="_blank">@underthew00d</a>
+            </p>
+
+            <p>
+                sometimes i make things:
+
+                <ul>
+                    <a style="text-decoration: underline;" href="/extras/starwars.html" target="_blank">star wars title crawl cv</a>
+                </ul>
+
+            </p>
+
+            <div id="grid" class="grid"  ng-controller="personalController">
+                <a ng-repeat="image in images" href="{{image}}" target="_blank">
+                <img ng-src="{{image}}" spinkit-image-preloader='circle-spinner'/>
+            </a>
+    </div>
+
+        </div>
+
+    </div>

@@ -1,0 +1,148 @@
+html {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 14px;
+  background-repeat: repeat;
+  background-size: 100%;
+  height: 100%; }
+  html a {
+    text-decoration: none;
+    color: #444444; }
+  html a:hover {
+    color: #999999; }
+  html li {
+    list-style: none; }
+
+@media screen and (min-width: 600px) {
+  html {
+    background-size: 50%; } }
+body, div.landingPage, div.ng-scope {
+  min-height: 100%;
+  padding: 0 2em; }
+
+div.header {
+  width: 100%;
+  line-height: 100%;
+  margin: 2em 0; }
+  div.header h1 {
+    display: inline; }
+  div.header div {
+    float: right; }
+  div.header a.inactive {
+    color: #999999;
+    text-decoration: underline; }
+  div.header a.inactive:hover {
+    color: #444444; }
+
+div.contentHalf {
+  width: 50%;
+  float: right; }
+
+div.landingBox {
+  background: #fff;
+  text-align: center;
+  padding: 10% 4%;
+  box-shadow: 1px 1px 8px 1px #999;
+  border-radius: 5px; }
+
+@media screen and (min-width: 70em) {
+  div.landingBox {
+    width: 30%;
+    margin: 8% auto; } }
+div.pageContact div.contactForm {
+  text-align: left; }
+  div.pageContact div.contactForm textarea {
+    width: 75%;
+    height: 10em; }
+  div.pageContact div.contactForm input {
+    width: 30%; }
+  div.pageContact div.contactForm textarea, div.pageContact div.contactForm input {
+    border: solid 1px #c3c3c3;
+    padding: 0.5%; }
+  div.pageContact div.contactForm input#submit {
+    margin-top: 1%; }
+  div.pageContact div.contactForm p.warning {
+    color: #bd0000; }
+  div.pageContact div.contactForm p.messageSent {
+    color: #009612; }
+  div.pageContact div.contactForm p.message {
+    margin: 20px;
+    color: green;
+    font-size: 30px;
+    font-weight: bold; }
+  div.pageContact div.contactForm p.fadein.ng-hide-remove,
+  div.pageContact div.contactForm p.fadeout.ng-hide-add {
+    -webkit-transition: 400ms ease-in-out all;
+    -moz-transition: 400ms ease-in-out all;
+    -o-transition: 400ms ease-in-out all;
+    transition: 400ms ease-in-out all;
+    display: block !important; }
+  div.pageContact div.contactForm p.fadein.ng-hide-remove,
+  div.pageContact div.contactForm p.fadeout.ng-hide-add.ng-hide-add-active {
+    opacity: 0; }
+  div.pageContact div.contactForm p.fadeout.ng-hide-add,
+  div.pageContact div.contactForm p.fadein.ng-hide-remove.ng-hide-remove-active {
+    opacity: 1; }
+
+header {
+  text-align: right; }
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: transparent;
+  padding: 0; }
+  .fixed-nav-bar li {
+    display: inline-block;
+    margin: 0 25px 16px 25px;
+    font-size: 15px; }
+    .fixed-nav-bar li .active {
+      color: darkred; }
+    .fixed-nav-bar li a {
+      text-decoration: none;
+      color: #444444; }
+    .fixed-nav-bar li a:hover {
+      color: #999999; }
+
+.contentContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.image {
+  position: relative;
+  display: block;
+  clear: both;
+  width: 60%;
+  margin: 20px auto;
+  padding: 0 10px; }
+
+/*Sketchbook grid styling*/
+div.grid {
+  font-size: 0; }
+  div.grid a {
+    font-size: 16px;
+    display: inline-block;
+    margin: 8px;
+    width: calc(80% - 4px); }
+    div.grid a img {
+      width: 100%; }
+
+@media screen and (min-width: 70em) {
+  div.grid a {
+    width: calc(28% - 6px); }
+
+  div.grid a:nth-of-type(3n) {
+    margin-right: 0; }
+
+  /*  div.grid a:nth-of-type(4n) {
+      margin-right: 0;
+    }*/ }
+
+/*# sourceMappingURL=style.css.map */

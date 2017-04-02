@@ -1,0 +1,41 @@
+<!-- contact.html -->
+<div class="pageContact">
+
+    <div class="header">
+        <h1>dan underwood</h1>
+        <div>
+            <a href="/">home</a>
+            <a href="/#professional">professional</a>
+            <a href="/#personal">personal</a>
+            <a class="inactive" href="/#contact">contact</a>
+        </div>
+            
+    </div>
+
+    
+
+    <div class="contentHalf contactForm">
+        <p>fill out the form below and I'll get back to you as soon as possible</p>
+        
+        <form ng-submit="submit()" ng-controller="contactController">
+
+            <label>name: </label><br/>
+		    <input type="text" ng-model="name" name="name" value="Name"/><br/>
+
+            <label>email: </label><br/>
+		    <input type="text" ng-model="email" name="email" /><br/>
+
+            <label>message: </label><br/>
+            <textarea ng-model="mail" name="mail"></textarea><br/>
+		    <input type="submit" id="submit" value="submit" /><br/>
+            <p ng-show="showAlert" class="{{ alertClass }} fadein fadeout">{{ alertMessage }}</p>
+        </form>
+    </div>
+
+    <div class="contentHalf grid">
+        <a ng-repeat="pic in instaPics" href="{{pic.link}}" target="_blank">
+            <img ng-src="{{pic.images.low_resolution.url}}"/>
+        </a>
+    </div>
+
+</div>

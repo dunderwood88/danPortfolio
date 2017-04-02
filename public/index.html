@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="danApp">
+    <head>
+        <link rel="stylesheet" href="style/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+        
+        <script src="js/core.js"></script>
+    </head>
+
+    <body ng-controller="landingPageController">
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view class="{{ pageClass }}"></div>
+
+
+    </body>
+</html>
