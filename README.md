@@ -1,5 +1,5 @@
-# kerryServer
+# danServer
 
-Kerry's portfolio website
+Dan's portfolio website
 
 Experimenting with the MEAN stack
