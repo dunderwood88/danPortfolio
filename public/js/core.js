@@ -88,7 +88,7 @@
                 $http.post('/api/mail/send', $scope.body)
                     .then(function(response){
                         $scope.resetForm();
-                        $scope.alertMessage = 'Message sent!';
+                        $scope.alertMessage = 'message sent!';
                         $scope.alertClass = 'messageSent';
 
                         // Loadind done here - Show message for 3 more seconds.
@@ -99,7 +99,7 @@
                     })
                     .catch(function(error){
                         $scope.mail = error.statusText;
-                        $scope.alertMessage = 'There was an error while sending your message. Please try again.';
+                        $scope.alertMessage = 'there was an error while sending your message. please try again.';
                         $scope.alertClass = 'warning';
 
                         // Simulate 2 seconds loading delay
@@ -110,7 +110,7 @@
             }
             else {
 
-                $scope.alertMessage = 'All fields required!';
+                $scope.alertMessage = 'all fields required!';
                 $scope.showAlert = true;
                 $scope.alertClass = 'warning';
 
