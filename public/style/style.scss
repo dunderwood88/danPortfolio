@@ -59,10 +59,30 @@ div.header {
     }
 }
 
+div.contentHalfContainer {
+    display: inline-block;
+}
+
 div.contentHalf {
         width: 50%;
-        float: right;
     }
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+footer {
+    padding: 4em 2em;
+    //margin: 4em 0;
+
+    a {
+        margin-right: 1em;
+    }
+}
 
 //LANDING PAGE 
 //********************************************************************************
@@ -148,43 +168,6 @@ div.pageContact {
             opacity: 1;
         }
     }
-}
-
-header {
-    text-align: right;
-    //padding-top: 90px;
-}
-
-.fixed-nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    width: 100%;
-    background:transparent;
-    padding:0;
-
-    li{
-        display: inline-block;
-        margin: 0 25px 16px 25px;
-        font-size: 15px;
-
-        .active{
-            color:darkred;
-        }
-
-        a {
-            text-decoration: none;
-            color: #444444;
-        }
-
-        a:hover {
-            color: #999999;
-        }
-    }
-
-
-
 }
 
 .contentContainer{

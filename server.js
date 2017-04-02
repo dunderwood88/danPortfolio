@@ -7,6 +7,13 @@
 var express = require('express'); // call express
 var app = express(); // define our app using express
 
+//db instance
+//var mongoose = require('mongoose');
+
+/*mongoose.connect(process.env.MONGOLAB_URI, function(error){
+    if (error) console.error(error);
+    else console.log('mongo connected');
+})*/
 
 //access configuration settings
 var cfg = require('./app/config');

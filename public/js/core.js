@@ -32,6 +32,11 @@
                 templateUrl: '/pages/contact.html',
                 controller: 'contactController'
             })
+
+            //route for about page
+            .when('/about',{
+                templateUrl: '/pages/about.html'
+            })
             .otherwise({
                 redirectTo: '/'
             });

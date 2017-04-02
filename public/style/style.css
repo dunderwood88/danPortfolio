@@ -33,9 +33,22 @@ div.header {
   div.header a.inactive:hover {
     color: #444444; }
 
+div.contentHalfContainer {
+  display: inline-block; }
+
 div.contentHalf {
-  width: 50%;
+  width: 50%; }
+
+div.left {
+  float: left; }
+
+div.right {
   float: right; }
+
+footer {
+  padding: 4em 2em; }
+  footer a {
+    margin-right: 1em; }
 
 div.landingBox {
   background: #fff;
@@ -82,29 +95,6 @@ div.pageContact div.contactForm {
   div.pageContact div.contactForm p.fadeout.ng-hide-add,
   div.pageContact div.contactForm p.fadein.ng-hide-remove.ng-hide-remove-active {
     opacity: 1; }
-
-header {
-  text-align: right; }
-
-.fixed-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  background: transparent;
-  padding: 0; }
-  .fixed-nav-bar li {
-    display: inline-block;
-    margin: 0 25px 16px 25px;
-    font-size: 15px; }
-    .fixed-nav-bar li .active {
-      color: darkred; }
-    .fixed-nav-bar li a {
-      text-decoration: none;
-      color: #444444; }
-    .fixed-nav-bar li a:hover {
-      color: #999999; }
 
 .contentContainer {
   position: absolute;
