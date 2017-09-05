@@ -16,7 +16,7 @@
     <div class="contentHalfContainer">
 
 
-        <div class="contentHalf contactForm right">
+        <div class="contentHalf contactForm">
             <p>fill out the form below and I'll get back to you as soon as possible.</p>
         
             <form ng-submit="submit()" ng-controller="contactController">
@@ -34,7 +34,7 @@
             </form>
         </div>
 
-        <div class="contentHalf grid">
+        <div class="contentHalf grid`">
             <a ng-repeat="pic in instaPics" href="{{pic.link}}" target="_blank">
                 <img ng-src="{{pic.images.low_resolution.url}}"/>
             </a>
