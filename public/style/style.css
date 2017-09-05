@@ -64,7 +64,8 @@ div.landingBox {
     margin: 8% auto; } }
 div.pageContact div.contactForm {
   text-align: left;
-  float: right; }
+  float: right;
+  margin-bottom: 2%; }
   div.pageContact div.contactForm textarea {
     width: 75%;
     height: 10em; }
