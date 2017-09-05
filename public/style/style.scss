@@ -65,6 +65,7 @@ div.contentHalfContainer {
 
 div.contentHalf {
         width: 50%;
+        float:left;
     }
 
 div.left {
@@ -115,6 +116,7 @@ div.pageContact {
 
     div.contactForm {
         text-align: left;
+        float: right;
 
         textarea {
             width: 75%;
